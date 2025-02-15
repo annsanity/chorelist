@@ -1,0 +1,76 @@
+/*
+
+COLOR PALETTE
+
+WHITE: #FEFEFE
+BLACK: #000000
+TEXT INPUT BACKGROUND: #EEEEEE
+ADD BUTTON: #FFCC68
+DELETE BUTTON: #FF9548
+CHORE: #FBDF7C
+
+*/
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Concert One', cursive;
+    text-align: center;
+}
+
+button {
+    font-family: 'Inter', sans-serif;
+}
+
+#addButton {
+    background-color: #FFCC68;
+    border-radius: 0.5rem;
+    padding : 1rem;
+    margin: none;
+    border: none;
+    cursor: pointer;
+}
+
+#deleteButton {
+    background-color: #FF9548;
+    border-radius: 0.5rem;
+    padding : 1rem;
+    margin: none;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+
+}
+
+#textInput {
+    border-radius: .5rem;
+    padding : 1rem;
+    background-color: #EEEEEE;
+    margin: none;
+    border: none;
+    cursor: text;
+    width: 15rem;
+
+}
+
+.class {
+    background-color: #FBDF7C;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
